@@ -27,8 +27,14 @@
              <img src="images/8.png" alt="" class="images">
             <div class="header-text">
                
-                <p>Software Engineer</p>
-                <h1>Hi I'm <span>Mohamed</span> Salaad From Somalia </h1>
+                <h1>Software Engineer</h1>
+
+                <p>Hi I'm <span>Mohamedamin</span> Salad  I am a passionate, hardworking,
+                     and dedicated individual with an interest in Information Technology, 
+                     computer operations, and digital solutions.
+                    I have skills in computer applications, IT assistance, and problem-solving. 
+                    I enjoy learning new technologies,  developing my abilities,
+                     and taking on new challenges. I am also a good team player with strong communication and time-management skills.</p>
                 </div>
         </div>
        
@@ -163,14 +169,14 @@
                     <div class="row">
                         <div class="contact-left">
                             <h1 class="sub-title">Contact Me </h1>
-                            <p>mohansalaad77@gmail.com</p>
-                            <p>+252618278577</p>
+                            <p style="color: black;">mohansalaad77@gmail.com</p>
+                            <p style="color: black;">+252618278577</p>
 
                             <div class="social-icons">
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://facebook.com/MoHazo Amiin"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://instagram.com/Amiin Salaad"><i class="fa-brands fa-instagram"></i></a>
                                 <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://linkedin.com/Mohamed Amiin Salaad"><i class="fa-brands fa-linkedin"></i></a>
                                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                             <a href="images/cv.pdf" download class="btn btn2">Downlord Cv</a>
@@ -178,8 +184,8 @@
                         <div class="contact-right">
                             <form name="submit-to-google-sheet">
                                 <input type="text" name="Name" placeholder="Your Name" required>
-                                <input type="email" name="email" placeholder="Your Email" required>
-                                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                                 <button type="submit" class="btn btn2">Submit</button>
                             </form>
                             <span id="msg">
@@ -228,7 +234,7 @@
         }
      </script>
 <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzjQukmMQYMq6LP4Jlwc135vwwZowI9FFuxYsTfESYtZBbR2YKXbR5v5AvFvNiZSwGfEw/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwSSLDwXKsw24j1gNxfiSJJO4q3AN6ImAmyOFpuG8LNF2R9zLzhhMWdHHqeHjcUg4E/exec'
   const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
   form.addEventListener('submit', e => {
@@ -239,7 +245,7 @@
         setTimeout(function(){
 
             msg.innerHTML = ""
-        }, 5000 )
+        }, 1000 )
         form.reset()
       })
       .catch(error => console.error('Error!', error.message))

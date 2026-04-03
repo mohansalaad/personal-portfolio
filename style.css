@@ -9,7 +9,8 @@ html{
 }
 body{
     /* background: #080808; */
-    background: #0096c7;
+    /* background: #0096c7; */
+    background: #f7f8f8;
     /* color: #fff; */
     color: #000000;
     height: 100vh;
@@ -20,8 +21,8 @@ body{
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     /* color: #fff; */
-    /* color: #000000; */
-    color: #fff;
+    color: #000000;
+    /* color: #fff; */
     text-decoration: none;
 }
 .logo h3 span{
@@ -54,8 +55,8 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    /* color: #000000; */
-    color: #fff;
+    color: #000000;
+    /* color: #fff; */
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -64,7 +65,8 @@ nav ul li a::after{
     content: '';
     width: 0%;
     height: 3px;
-    background: #e8648e;
+    /* background: #e8648e; */
+    background: #7f90ee;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -74,21 +76,27 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20%;
 }
 .header-text h1{
-    font-size: 40px;
+    color: #7f90ee;
+}
+.header-text p{
+    font-size: 20px;
     margin-top: 20px;
+    font-family: cursive;
 }
 .header-text h1 span{
-    color: #fff;
+    color: #070707;
+    /* color: #fff; */
   
 }
 /* ------------About----------- */
 #about{
     padding: 80px 0px;
-    color: #fff;
+    color: #0c0c0c;
+    /* color: #fff; */
     /* color: #000000; */
 }
 .images{
@@ -113,9 +121,10 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .sub-title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
-    color: #fff;
+    color: #070707;
+    /* color: #fff; */
     /* color: #000000; */
 }
 .tap-title{
@@ -189,7 +198,7 @@ margin-top: 50px;
 .srvices-list div a{
     text-decoration: none;
     /* color: #fff; */
-    color: #bf0603;
+    color: #7971f1;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
@@ -248,6 +257,7 @@ margin-top: 50px;
     text-decoration: none;
     font-size: 20px;
     line-height: 60px;
+    /* background: #070707; */
     background: #fff;
     width: 60px;
     height: 60px;
@@ -268,7 +278,7 @@ margin-top: 50px;
     width: fit-content;
     border: 1px solid #b8c0ff;
     /* border: 1px solid #6f4518; */
-    background-color: #6777f1;
+    background-color: #23273f;
     padding: 15px;
     border-radius: 6px;
     text-decoration: none;
@@ -292,6 +302,7 @@ margin-top: 50px;
 }
 .contact-left p{
     margin-top: 30px;
+    color: #030303;
 }
 .contact-left p i{
     color: #b8c0ff;
@@ -306,19 +317,19 @@ margin-top: 50px;
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #bb9457;
+    color: #16140f;
     display: inline-block;
     transition: tranform 0.5s;
 }
 .social-icons a:hover{
-    color: #fff;
+    color: #87b2eb;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
     color: #fff;
-    background: #6777f1;
+    background: #23273f;
     transition: background 0.5s;
 }
 .contact-right form{
@@ -328,6 +339,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
+    /* background: #000000; */
     background: #fff;
     padding: 15px;
     margin: 15px 0;
@@ -353,7 +365,7 @@ form .btn2{
     margin-top: 20px;
 }
 .btn2:hover{
-    background: #fd1b1b;
+    background: #9ca9f1;
 }
 nav .fas{
     display: none;
